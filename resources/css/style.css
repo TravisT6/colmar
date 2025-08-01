@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* --- HEADER STYLES ---*/
@@ -23,4 +24,62 @@ header .logo {
     align-items: center;
     height: 32px;
     padding-left: 24px;
+}
+
+/*--- NAV STYLES ---*/
+
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  margin-right: 24px;
+  padding: 0;
+  list-style: none;
+
+  
+}
+
+nav li {
+    margin: 16px;
+}
+
+nav a { 
+    color: #000;
+    text-decoration: none;
+}
+
+/*---START SECTION---*/
+
+.start {
+    background-color: lightgrey;
+    display: flex;
+    width: 100%;
+}
+
+.start img {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.s-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 24px;
+    
+}
+
+.s-text button {
+    background-color:#000 ;
+    color: white;
+    box-sizing: content-box;
+    width: 90%;
+    height: 10%;
+    top: 8px;
+    bottom: 8px;
+    position: relative;
 }
