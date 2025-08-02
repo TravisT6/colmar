@@ -83,3 +83,66 @@ nav a {
     bottom: 8px;
     position: relative;
 }
+
+/* --- MAIN CONTENT STYLES ---*/
+
+.main-content {
+    display: flex;
+    padding-top: 64px;
+    width: 100%;
+}
+
+.practice {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+
+.practice img {
+  width: 100%;
+  height: auto;
+}
+
+
+.practice h1 {
+    font-size: 2rem;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.practice p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+
+/*---SIDEBAR STYLES---*/
+
+.sidebar {
+    width: 40%;
+    background-color: white;
+}
+
+.sidebar-item {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar-item img {
+    width: 35%;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.sidebar-item h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.sidebar-item p,
+.sidebar-item a {
+    margin: 0;
+    font-size: 0.9rem;
+}
