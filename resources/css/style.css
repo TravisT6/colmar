@@ -58,6 +58,7 @@ nav a {
     display: flex;
     width: 100%;
     padding-top: 64px;
+    align-items: center;
 }
 
 .start img {
@@ -70,19 +71,29 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 24px;
+    padding: 24px;
     
+}
+
+.s-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.s-text p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .s-text button {
     background-color:#000 ;
     color: white;
     box-sizing: content-box;
-    width: 90%;
-    height: 10%;
-    top: 8px;
-    bottom: 8px;
-    position: relative;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    cursor: pointer;
 }
 
 /* --- MAIN CONTENT STYLES ---*/
