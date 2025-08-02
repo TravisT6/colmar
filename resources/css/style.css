@@ -167,6 +167,7 @@ nav a {
 .learning-courses {
     text-align: center;
     padding: 3rem 0;
+    background-color: lightgrey;
 }
 
 .learning-courses h2 {
@@ -216,4 +217,85 @@ nav a {
 .course p {
     font-size: 0.9rem;
     color: #777;
+}
+
+/*--- THESIS STYLES ---*/
+
+.thesis-exhibit {
+    padding: 32px 24px;
+}
+
+.thesis-exhibit h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.thesis-container {
+ display: flex;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.thesis-main {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.thesis-main video{
+    width: 100%;
+    height: auto;
+
+}
+
+.thesis-main h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.thesis main p {
+    font-size: 1rem;
+}
+
+
+.thesis-sidebar {
+    width: 40%;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.thesis-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.thesis-item img {
+    width: 35%;
+    height: auto;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+
+.thesis-item .text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.thesis-item h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+
+.thesis-item p {
+    margin: 0;
+    font-size: 0.9rem;
 }
