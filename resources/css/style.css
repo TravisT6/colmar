@@ -161,3 +161,59 @@ nav a {
     
 }
 
+
+/* --- LEARNING COURSES SECTION ---*/
+
+.learning-courses {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.learning-courses h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 0 1rem;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.course {
+    background-color: #f7f7f7; 
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course h3,
+.course h4,
+.course p {
+    padding: 0 1rem; 
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.course h3 {
+    font-size: 1.25rem;
+}
+
+.course h4 {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.course p {
+    font-size: 0.9rem;
+    color: #777;
+}
