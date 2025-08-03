@@ -56,9 +56,10 @@ nav a {
 .start {
     background-color: lightgrey;
     display: flex;
-    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
     padding-top: 64px;
-    align-items: center;
+    align-items:center;
 }
 
 .start img {
@@ -88,12 +89,13 @@ nav a {
 .s-text button {
     background-color:#000 ;
     color: white;
-    box-sizing: content-box;
     width: 100%;
     padding: 1rem;
     border: none;
     text-align: center;
     cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 /* --- INFO CONTENT STYLES ---*/
@@ -197,6 +199,8 @@ nav a {
     text-align: center;
     padding: 3rem 0;
     background-color: lightgrey;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .learning-courses h2 {
