@@ -160,7 +160,12 @@ nav a {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #ccc;
+
 }  
+
+.info-item:hover {
+    background-color: lightgrey;
+}
    
 .info-item:last-child {
     border-bottom: none;
@@ -223,6 +228,13 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 8px;
     overflow: hidden; 
+    transition: 0.3s ease-in;
+}
+
+
+.course:hover {
+    transition: 0,3s ease-out;
+    transform: scale(1.05);
 }
 
 .course img {
@@ -307,6 +319,9 @@ nav a {
     border-bottom: 1px solid #ccc;
 }
 
+.thesis-item:hover {
+    background-color: lightgrey;
+}
 
 
 .thesis-item img {
