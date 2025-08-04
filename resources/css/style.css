@@ -440,6 +440,7 @@ nav a {
     .s-text button {
         width: 90%;
         margin: 0 auto;
+        background-color: grey;
     }
 
     info-container, .thesis-container {
@@ -468,12 +469,38 @@ nav a {
         width: 100%;
         margin: 0;
     }
+
+    .learning-courses {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
  .course-grid {
         grid-template-columns: 1fr;
     }
     .course {
         text-align: center;
+        background-color: lightgrey;
+
     }
+
+
+    .course img, h4, p {
+        display: none;
+    }
+
+
+    .thesis-sidebar {
+        display: none;
+    }
+
+    .thesis-main h1 {
+        display: none;
+    }
+
 .footer-container {
         flex-direction: column;
         text-align: center;
