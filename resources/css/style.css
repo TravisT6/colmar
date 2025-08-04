@@ -379,3 +379,85 @@ nav a {
     color: #555;
     font-size: 0.9rem;
 }
+
+
+/*---Mobile section---*/
+
+
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    
+}
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 16px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.mobile-header img {
+        height: 32px;
+    }
+
+
+      .start, .start-container {
+        flex-direction: column;
+        padding-top: 64px;
+        width: 100%;
+    }
+
+.start img {
+        width: 100%;
+        padding: 0;
+    }
+    .s-text {
+        width: 100%;
+        text-align: center;
+    }
+    .s-text button {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    info-container, .thesis-container {
+        flex-direction: column;
+    }
+    .info-main, .info-sidebar,
+    .thesis-main, .thesis-sidebar {
+        width: 100%;
+        padding: 0;
+    }
+    .info-item, .thesis-item {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 16px;
+    }
+    .info-item img, .thesis-item img {
+        width: 100%;
+        margin: 0;
+    }
+ .course-grid {
+        grid-template-columns: 1fr;
+    }
+    .course {
+        text-align: center;
+    }
+.footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-nav ul {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .footer-nav li {
+        margin: 8px 0;
+    }
+}
