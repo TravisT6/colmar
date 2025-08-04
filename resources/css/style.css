@@ -149,7 +149,7 @@ nav a {
 
 .info-sidebar {
     width: 40%;
-    background-color: #f7f7f7;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -306,7 +306,7 @@ nav a {
 
 .thesis-sidebar {
     width: 40%;
-    background-color: #f7f7f7;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
