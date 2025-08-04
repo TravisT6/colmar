@@ -391,10 +391,10 @@ nav a {
 }
 .mobile-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 64px;
-    padding: 0 16px;
+   padding: 0 16px;
     position: fixed;
     width: 100%;
     background-color: #fff;
@@ -403,6 +403,7 @@ nav a {
 
 .mobile-header img {
         height: 32px;
+        
     }
 
 
