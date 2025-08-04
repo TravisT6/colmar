@@ -426,6 +426,7 @@ nav a {
         flex-direction: column;
         padding-top: 64px;
         width: 100%;
+        margin: 0;
     }
 
 .start img {
@@ -443,7 +444,15 @@ nav a {
 
     info-container, .thesis-container {
         flex-direction: column;
+        width: 100%;
+        margin: 0 auto;;
     }
+
+
+    .info-main {
+     display: none;
+}
+
     .info-main, .info-sidebar,
     .thesis-main, .thesis-sidebar {
         width: 100%;
