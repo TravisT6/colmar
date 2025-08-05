@@ -410,7 +410,7 @@ nav a {
 }
 .mobile-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 64px;
    padding: 0 16px;
@@ -447,7 +447,7 @@ nav a {
         background-color: grey;
     }
 
-    info-container, .thesis-container {
+    .info-container, .thesis-container {
         flex-direction: column;
         width: 100%;
         margin: 0;
