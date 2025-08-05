@@ -450,7 +450,7 @@ nav a {
     info-container, .thesis-container {
         flex-direction: column;
         width: 100%;
-        margin: 0 auto;;
+        margin: 0;
     }
 
 
@@ -492,6 +492,15 @@ nav a {
     }
 
 
+    .learning-courses {
+        text-align: center;
+        padding: 3rem 0;
+        background-color: white;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
     .course img, h4, p {
         display: none;
     }
@@ -508,6 +517,8 @@ nav a {
 .footer-container {
         flex-direction: column;
         text-align: center;
+        max-width: 100%;
+        margin: 0;
     }
     .footer-nav ul {
         flex-direction: column;
